@@ -1,0 +1,75 @@
+.container-page_slogan{
+    background-image: url('../images/fondo-slogan.jpg');
+    opacity: 0.9;
+    margin: 20px 150px;
+    padding: 90px 0;
+    color: black;
+}
+
+.container-page__titulo{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container-page__uno, .container-page__dos{
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/*Secciones*/
+
+
+.container-formasPagos{
+    background: rgb(211, 196, 196);
+    margin: 30px 0;
+    display: flex;
+    padding: 30px 100px;
+
+}
+.container-formasPagos_item{
+    width: 160vh;
+    margin: 0 5px;
+    display: flex;
+    font-size: 15px;
+}
+
+.tarjeta p{
+    margin-left: 20px;
+}
+
+.tarjeta h5{
+    margin-left: 20px;
+}
+
+.container-formasPagos__img{
+    width: 40%;
+}
+
+.container-formasPagos__img img{
+    width: 80px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 50%;
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:900px){
+
+
+    .tarjeta, .premium{
+        visibility: hidden;
+        display: none;
+    }
+
+    .container-page_slogan{
+        display: none;
+        visibility: hidden;
+    }
+}

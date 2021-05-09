@@ -1,0 +1,112 @@
+/*NAV*/
+.edu-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0; /*o width de 100%*/
+    z-index: 1;
+    opacity: .9; /*para opacar el fondo pero en este caso lo saco para que el blur quede mejopr*/
+    transition: padding white;
+}
+
+.edu-nav{
+    background-color: yellow !important;
+    padding: 15px;
+}
+
+.edu-nav__menu_responsive{
+    border: 3px solid black !important;
+}
+
+nav div a{
+    color: black;
+    font-weight: 500;
+}
+
+/*SLIDER*/
+.edu-slider{
+   margin-top: 75px;
+}
+
+.carousel-caption__text h5{
+    font-size: 3em;
+}
+
+.carousel-caption__text p{
+    font-size: 1.5em;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 5px;
+    /*color: white;*/
+}
+
+.footer-contenedor{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-item p{
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.footer-item h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.footer-contenedor__redes img{
+    width: 30px;
+    margin: 2px;
+
+}
+
+.footer-copyright{
+    background-color: yellow;
+    padding: 2px;
+    border-top: 3px solid brown;
+}
+
+.footer-copyright p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:600px){
+    .footer-contenedor{
+        display: block;
+        margin: auto;
+        margin-bottom: -25px;
+        margin-top: -15px;
+    }
+
+    .footer-item{
+        margin-bottom: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-item h3{
+        font-size: 15px;
+    }
+
+    .footer-item p{
+        font-size: 12px;
+    }
+
+    .footer-copyright p{
+        font-size: 10px;
+    }
+}
+
+
